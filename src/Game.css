@@ -1,0 +1,211 @@
+:root {
+    --correct-color: #28a745;
+    --partial-color: #ffc107;
+    --wrong-color: #dc3545;
+    --dark-color: #010A13;
+}
+
+span {
+    font-family: Spiegel;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+p, small {
+    font-family: Spiegel;
+}
+
+.main {
+    padding-bottom: 8em;
+}y
+
+.breakWord {
+    word-spacing: 100vw;
+}
+
+.cityData {
+    border: 0.1em solid var(--dark-color);
+    box-shadow: inset 0 0 0.6em var(--dark-color);
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    width: 225px; 
+    height: 100px; 
+}
+
+
+.cityData:first-child {
+    width: 200px; 
+}
+.neutral{
+    background-color: rgb(112, 112, 196);
+}
+
+.correct{
+    background-color: var(--correct-color);
+}
+
+.incorrect {
+    background-color: var(--wrong-color);
+}
+
+.incorrect-greater {
+    background-image: linear-gradient(var(--correct-color), 60%, var(--wrong-color));
+}
+
+.incorrect-less {
+    background-image: linear-gradient(var(--wrong-color), 60%, var(--correct-color));
+}
+
+.victory{
+    display: flex;
+    justify-content: center;
+}
+
+.victory p {
+    font-size: 1.4em;
+}
+
+.victory > .card {
+    color: #fff;
+    background-image: linear-gradient(#408140, #5cb85c);
+}
+
+.victory .smaller {
+    font-size: 1.1em;
+}
+
+.transparentModal .modal-header {
+    border: none;
+}
+
+.transparentModal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.regionText {
+    white-space: pre;
+}
+
+.box{
+    margin-left: 30%;
+}
+
+.demo {
+    width: 4vw;
+    height: 4vw;
+    border: 0.1em solid var(--dark-color);
+    box-shadow: inset 0 0 0.6em var(--dark-color);
+}
+
+.darkBtn {
+    background-color: #1E2328;
+}
+
+.select input[type="text"] {
+    caret-color: transparent;
+}
+
+.select-option {
+    display: flex;
+    align-items: flex-start;
+}
+
+.select-option span {
+    flex: 1;
+    font-family: "Beaufort for LOL";
+}
+
+@media only screen and (min-width: 600px) {
+
+    .container, .container-md, .container-sm {
+        max-width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #gameTitle, .cityData {
+        font-size: 0.9em;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    #guess-form {
+        width: 45%;
+    }
+
+    .col-1, .col-2 {
+        padding: 0em;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 90vw;
+    }
+
+    .transparentModal .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cityData:first-child{
+        max-width: 7.5ch;
+    }
+
+    #gameTitle, .cityData {
+        font-size: 0.9em;
+    }
+
+    #guess-form {
+        width: 40%;
+    }
+
+    .transparentModal .card {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+    .cityData:first-child{
+        max-width: 8.5ch;
+    }
+
+    #guess-form {
+        width: 35%;
+    }
+
+    #gameTitle, .cityData {
+        font-size: 1em;
+    }
+
+    .transparentModal .card {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .cityData:first-child{
+        max-width: 10ch;
+    }
+
+    #guess-form {
+        width: 30%;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 70vw;
+    }
+
+    #gameTitle, .cityData {
+        font-size: 1.1em;
+    }
+
+    .transparentModal .card {
+        width: 75%;
+    }
+}
