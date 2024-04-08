@@ -112,7 +112,7 @@ export default function Game() {
                 <button className="btn btn-dark mb-3 mt-1 min-vw-25">Guess</button>
             )}
             {!correctGuess && guesses.length >= 10 ? (
-                <button className="btn btn-dark mb-3 mt-1 min-vw-25" onClick={Restart}>Reroll</button>
+                <button className="btn btn-dark mb-3 mt-1 min-vw-25" onClick={Restart}>Restart</button>
             ) : (
                 ""
             )}

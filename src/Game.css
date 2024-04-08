@@ -118,10 +118,41 @@ p, small {
     font-family: "Beaufort for LOL";
 }
 
+@media only screen and (max-width: 600px) {
+
+    .container, .container-md, .container-sm {
+        max-width: 100vw;
+    }
+    
+    #gameTitle, .cityData {
+        font-size: 0.6em;
+    }
+
+    #gameTitle{
+        margin-left: 5px;
+    }
+
+    .cityData{
+        width: 10%;
+    }
+}
+
 @media only screen and (min-width: 600px) {
 
     .container, .container-md, .container-sm {
         max-width: 100vw;
+    }
+    
+    #gameTitle, .cityData {
+        font-size: 0.9em;
+    }
+
+    #gameTitle{
+        margin-left: 5px;
+    }
+
+    .cityData{
+        width: 17%;
     }
 }
 
@@ -129,6 +160,14 @@ p, small {
 
     #gameTitle, .cityData {
         font-size: 0.9em;
+    }
+
+    #gameTitle{
+        margin-left: 5px;
+    }
+
+    .cityData{
+        width: 17%;
     }
 
     .container {
@@ -161,6 +200,14 @@ p, small {
         font-size: 0.9em;
     }
 
+    #gameTitle{
+        margin-left: 5px;
+    }
+
+    .cityData{
+        width: 17%;
+    }
+
     #guess-form {
         width: 40%;
     }
@@ -174,7 +221,7 @@ p, small {
     .cityData:first-child{
         max-width: 8.5ch;
     }
-
+    
     #guess-form {
         width: 35%;
     }
