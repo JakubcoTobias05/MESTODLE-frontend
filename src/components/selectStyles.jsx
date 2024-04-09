@@ -7,11 +7,14 @@ export const SelectStyles = {
   option: (styles, state) => ({
     ...styles,
     cursor: "pointer",
+    backgroundColor: state.isFocused ? 'rgba(0, 0, 0, 0.1)' : 'white',
+    color: state.isFocused ? 'black' : 'black',
   }),
   control: (styles) => ({
     ...styles,
     cursor: "pointer",
-    color: state.isFocused ? 'black' : 'black',
+    borderColor: 'black', 
+    '&:hover': { borderColor: 'black' }, 
   }),
 };
 
@@ -19,10 +22,14 @@ export const HoverSelectStyles = {
   option: (styles, state) => ({
     ...styles,
     cursor: "pointer",
+    backgroundColor: state.isFocused ? 'rgba(0, 0, 0, 0.1)' : 'white',
+    color: state.isFocused ? 'black' : 'black',
   }),
   control: (styles) => ({
     ...styles,
     cursor: "pointer",
+    borderColor: 'black',
+    '&:hover': { borderColor: 'black' },
   }),
 };
 
