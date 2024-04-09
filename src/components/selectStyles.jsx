@@ -11,6 +11,7 @@ export const SelectStyles = {
   control: (styles) => ({
     ...styles,
     cursor: "pointer",
+    color: state.isFocused ? 'black' : 'black',
   }),
 };
 
