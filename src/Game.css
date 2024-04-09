@@ -5,6 +5,13 @@
     --dark-color: #010A13;
 }
 
+#guess-form {
+    background-image: url('assets/mapa.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 span {
     font-family: Spiegel;
     font-size: 1.2em;

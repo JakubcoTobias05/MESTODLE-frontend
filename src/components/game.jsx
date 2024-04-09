@@ -85,7 +85,7 @@ export default function Game() {
 
       <h3 className="text-center pb-3">MESTODLE</h3>
 
-      <div className="d-flex justify-content-center mt-4 mb-3">
+      <div className="d-flex justify-content-center mt-4 mb-3" id="form">
         <form
           className="form-control row g-3 mb-4"
           onSubmit={Guess}
