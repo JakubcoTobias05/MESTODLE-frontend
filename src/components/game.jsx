@@ -87,7 +87,7 @@ export default function Game() {
 
       <div className="d-flex justify-content-center mt-4 mb-3" id="form">
         <form
-          className="form-control row g-3 mb-4"
+          class="form-control row g-3 mb-4 black-border"
           onSubmit={Guess}
           id="guess-form"
         >
