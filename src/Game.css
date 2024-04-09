@@ -110,6 +110,7 @@ p, small {
 
 .select input[type="text"] {
     caret-color: transparent;
+    border-color: black;
 }
 
 .select-option {
