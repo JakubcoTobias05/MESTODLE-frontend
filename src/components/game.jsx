@@ -83,7 +83,7 @@ export default function Game() {
         />
       </Helmet>
 
-      <h3 className="text-center pb-3">MESTODLE</h3>
+      <h1 className="text-center pb-3">MESTODLE</h1>
 
       <div className="d-flex justify-content-center mt-4 mb-3" id="form">
         <form
