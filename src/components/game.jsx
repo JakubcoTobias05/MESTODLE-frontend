@@ -92,7 +92,7 @@ export default function Game() {
           id="guess-form"
         >
           <Select
-            className="select"
+            className="select black-border"
             options={validGuesses}
             onChange={(selectedOption) => setGuess(selectedOption.value)}
             isDisabled={correctGuess}
