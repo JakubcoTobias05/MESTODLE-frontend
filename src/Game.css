@@ -116,11 +116,13 @@ p, small {
 .select-option {
     display: flex;
     align-items: flex-start;
+    border-color: black;
 }
 
 .select-option span {
     flex: 1;
     font-family: "Beaufort for LOL";
+    border-color: black;
 }
 
 @media only screen and (max-width: 600px) {
