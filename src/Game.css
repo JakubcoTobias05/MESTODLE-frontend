@@ -17,7 +17,11 @@ p, small {
 
 .main {
     padding-bottom: 8em;
-}y
+}
+
+.black-border {
+    border-color: black;
+}
 
 .breakWord {
     word-spacing: 100vw;
